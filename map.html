@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Map Test</title>
+  <link rel="stylesheet" href="/loopsite/directory/map.css">
+</head>
+<body>
+  <div id="map-container"></div>
+  <script src="/loopsite/directory/raphael.min.js"></script>
+  <script src="/loopsite/directory/settings.js"></script>
+  <script src="/loopsite/directory/paths.js"></script>
+  <script src="/loopsite/directory/map.js"></script>
+  <script>
+    var map = new FlaMap(map_cfg);
+    map.drawOnDomReady("map-container");
+  </script>
+</body>
+</html>
